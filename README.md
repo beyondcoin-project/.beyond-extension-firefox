@@ -12,7 +12,8 @@ For the list of OpenNIC support domain names see the [full list](https://wiki.op
 
 ## Installing Production Version
 
-Download the extension from the Firefox Addons site: [.beyond DNS](https://addons.mozilla.org/en-US/firefox/addon/beyond-dns/)
+Coming Soon!
+<!--Download the extension from the Firefox Addons site: [.beyond DNS](https://addons.mozilla.org/en-US/firefox/addon/beyond-dns/)-->
 
 ## Installing Debug Version
 
