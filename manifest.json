@@ -1,0 +1,67 @@
+{
+  "manifest_version": 2,
+  "name": ".beyond DNS",
+  "short_name": "BEYOND-DNS",
+  "version": "1.0.0",
+  "description": "Resolves domains from .beyond name systems as well as all other OpenNIC & ICANN domains",
+  "icons": {
+    "16": "icon-16.png",
+    "24": "icon-24.png",
+    "32": "icon-32.png",
+    "64": "icon-64.png",
+    "128": "icon-128.png"
+  },
+  "browser_action": {
+    "browser_style": false,
+    "default_icon": {
+      "16": "icon-16.png",
+      "24": "icon-24.png",
+      "32": "icon-32.png",
+      "64": "icon-64.png",
+      "128": "icon-128.png"
+    }
+  },
+  "background": {
+    "scripts": ["common.js", "cache.js", "beyonddns.js"]
+  },
+  "permissions": [
+    "webRequest", "webRequestBlocking", "proxy", "notifications", "alarms", "tabs",
+    "*://*.beyond/*", "ftp://*.beyond/*",
+    "*://*.bit/*",    "ftp://*.bit/*",
+    "*://*.lib/*",    "ftp://*.lib/*",
+    "*://*.emc/*",    "ftp://*.emc/*",
+    "*://*.bazar/*",  "ftp://*.bazar/*",
+    "*://*.coin/*",   "ftp://*.coin/*",
+    "*://*.bbs/*",    "ftp://*.bbs/*",
+    "*://*.chan/*",   "ftp://*.chan/*",
+    "*://*.cyb/*",    "ftp://*.cyb/*",
+    "*://*.dyn/*",    "ftp://*.dyn/*",
+    "*://*.geek/*",   "ftp://*.geek/*",
+    "*://*.gopher/*", "ftp://*.gopher/*",
+    "*://*.indy/*",   "ftp://*.indy/*",
+    "*://*.libre/*",  "ftp://*.libre/*",
+    "*://*.neo/*",    "ftp://*.neo/*",
+    "*://*.null/*",   "ftp://*.null/*",
+    "*://*.o/*",      "ftp://*.o/*",
+    "*://*.oss/*",    "ftp://*.oss/*",
+    "*://*.oz/*",     "ftp://*.oz/*",
+    "*://*.parody/*", "ftp://*.parody/*",
+    "*://*.pirate/*", "ftp://*.pirate/*",
+    "*://*.ku/*",     "ftp://*.ku/*",
+    "*://*.te/*",     "ftp://*.te/*",
+    "*://*.ti/*",     "ftp://*.ti/*",
+    "*://*.uu/*",     "ftp://*.uu/*",
+    "*://*.fur/*",    "ftp://*.fur/*"
+  ],
+  "homepage_url": "https://beyondnic.com",
+
+  "applications": {
+    "gecko": {
+      "strict_min_version": "55.0a1"
+    }
+  },
+  "developer": {
+    "name": "Beyondcoin Developers",
+    "url": "https://beyondnic.com"
+  }
+}
