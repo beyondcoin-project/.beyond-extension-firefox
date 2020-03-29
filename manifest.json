@@ -53,7 +53,7 @@
     "*://*.uu/*",     "ftp://*.uu/*",
     "*://*.fur/*",    "ftp://*.fur/*"
   ],
-  "homepage_url": "https://beyondnic.com",
+  "homepage_url": "https://byndnic.com",
 
   "applications": {
     "gecko": {
@@ -62,6 +62,6 @@
   },
   "developer": {
     "name": "Beyondcoin Developers",
-    "url": "https://beyondnic.com"
+    "url": "https://byndnic.com"
   }
 }

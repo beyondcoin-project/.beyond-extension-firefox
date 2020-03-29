@@ -4,7 +4,7 @@ BEYOND-DNS addon for Firefox lets you surf **.beyond**, and OpenNIC domains, and
 
 -------
 
-BEYOND-DNS is a public web resolver. It operates at https://dns.beyondnic.com (API description is coming soon).
+BEYOND-DNS is a public web resolver. It operates at https://dns.byndnic.com (API description is coming soon).
 
 For the list of OpenNIC support domain names see the [full list](https://wiki.opennic.org/opennic/dot).
 
