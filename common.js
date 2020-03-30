@@ -52,7 +52,7 @@
 
 // Update manifest when this list is changed.
 var apiBaseURLs = [
-'https://dns.byndnic.com/',
+'http://dns.byndnic.com/',
 ];
 
 var apiBaseUrlIndex = Math.floor(Math.random() * apiBaseURLs.length);

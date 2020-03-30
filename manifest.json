@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": ".beyond DNS",
   "short_name": "BEYOND-DNS",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Resolves domains from .beyond name systems as well as all other OpenNIC & ICANN domains",
   "icons": {
     "16": "icon-16.png",
@@ -62,6 +62,6 @@
   },
   "developer": {
     "name": "Beyondcoin Developers",
-    "url": "https://byndnic.com"
+    "url": "https://beyondname.io"
   }
 }

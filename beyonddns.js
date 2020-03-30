@@ -265,6 +265,6 @@ browser.tabs.onUpdated.addListener(function (id, changeInfo) {
 
 browser.browserAction.onClicked.addListener(function () {
   browser.tabs.create({
-    url: "https://byndnic.com"
+    url: "http://byndnic.com"
   });
 });
